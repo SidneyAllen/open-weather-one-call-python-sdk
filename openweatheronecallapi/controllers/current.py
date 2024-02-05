@@ -19,11 +19,11 @@ from openweatheronecallapi.models.weather_info import WeatherInfo
 from openweatheronecallapi.exceptions.api_exception import APIException
 
 
-class CurrentController(BaseController):
+class Current(BaseController):
 
     """A Controller to access Endpoints in the openweatheronecallapi API."""
     def __init__(self, config):
-        super(CurrentController, self).__init__(config)
+        super(Current, self).__init__(config)
 
     def current_weather_data(self,
                              lat,

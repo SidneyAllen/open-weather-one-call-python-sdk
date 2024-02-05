@@ -8,7 +8,7 @@ current_controller = client.current
 
 ## Class Name
 
-`CurrentController`
+`Current`
 
 
 # Current Weather Data

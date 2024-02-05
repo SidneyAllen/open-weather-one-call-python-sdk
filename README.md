@@ -11,11 +11,11 @@ The package is compatible with Python versions `3 >=3.7, <= 3.11`.
 Install the package from PyPi using the following pip command:
 
 ```python
-pip install open-weather-one-call-sdk==1.0.0
+pip install open-weather-one-call-sdk==1.0.1
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/open-weather-one-call-sdk/1.0.0
+https://pypi.python.org/pypi/open-weather-one-call-sdk/1.0.1
 
 ## Test the SDK
 
@@ -30,7 +30,7 @@ pytest
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -64,11 +64,11 @@ This API uses `Custom Query Parameter`.
 
 ## List of APIs
 
-* [Current](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.0/doc/controllers/current.md)
+* [Current](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.1/doc/controllers/current.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.0/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.0/doc/http-response.md)
-* [HttpRequest](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.0/doc/http-request.md)
+* [Utility Classes](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.1/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.1/doc/http-response.md)
+* [HttpRequest](https://www.github.com/SidneyAllen/open-weather-one-call-python-sdk/tree/1.0.1/doc/http-request.md)
 

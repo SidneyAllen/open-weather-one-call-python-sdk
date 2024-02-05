@@ -13,15 +13,14 @@ from openweatheronecallapi.configuration import Configuration
 from openweatheronecallapi.controllers.base_controller import BaseController
 from openweatheronecallapi.configuration import Environment
 from openweatheronecallapi.http.auth.custom_query_authentication import CustomQueryAuthentication
-from openweatheronecallapi.controllers.current_controller\
-    import CurrentController
+from openweatheronecallapi.controllers.current import Current
 
 
 class OpenweatheronecallapiClient(object):
 
     @LazyProperty
     def current(self):
-        return CurrentController(self.global_configuration)
+        return Current(self.global_configuration)
 
     def __init__(self, http_client_instance=None,
                  override_http_client_configuration=False, http_call_back=None,

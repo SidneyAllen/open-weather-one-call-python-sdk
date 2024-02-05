@@ -15,11 +15,11 @@ from apimatic_core.utilities.comparison_helper import ComparisonHelper
 from openweatheronecallapi.api_helper import APIHelper
 
 
-class CurrentControllerTests(ControllerTestBase):
+class CurrentTests(ControllerTestBase):
 
     @classmethod
     def setUpClass(cls):
-        super(CurrentControllerTests, cls).setUpClass()
+        super(CurrentTests, cls).setUpClass()
         cls.controller = cls.client.current
         cls.response_catcher = cls.controller.http_call_back
 

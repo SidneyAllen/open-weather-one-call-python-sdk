@@ -35,5 +35,5 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description |
 |  --- | --- |
-| current | Gets CurrentController |
+| current | Gets Current |
 
